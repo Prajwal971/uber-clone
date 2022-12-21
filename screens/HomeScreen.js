@@ -49,6 +49,8 @@ const HomeScreen = () => {
                     debounce={400} //shown or display the related searches after 400milliseconds of typing
                 />
                 <NavOptions />
+
+                <NavFavourite/>
             </View>
         </SafeAreaView>
     )
